@@ -10,7 +10,7 @@ st.set_page_config(page_title="Multi-Agent AI Financial Analyst", layout="wide")
 st.title("🤖 Autonomous Multi-Agent Financial Analyst")
 st.subheader("Real-Time Crypto Analysis & Risk Engine")
 
-symbol = st.sidebar.selectbox("Select Asset Symbol", ["BTC/USDT", "ETH/USDT", "SOL/USDT"])
+symbol = st.sidebar.selectbox("Select Asset Symbol", ["BTC/USD", "ETH/USD", "SOL/USD"])
 account_balance = st.sidebar.number_input("Account Balance ($)", value=10000.0, step=1000.0)
 max_risk_pct = st.sidebar.slider("Max Portfolio Risk per Trade (%)", 0.5, 5.0, 2.0) / 100
 
