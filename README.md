@@ -19,7 +19,7 @@ An end-to-end Python engine that leverages multi-agent signal consensus (Technic
 
 ### Local Setup
 ```bash
-git clone [https://github.com/YOUR_USERNAME/multi-agent-crypto-analyst.git](https://github.com/YOUR_USERNAME/multi-agent-crypto-analyst.git)
+git clone [https://github.com/egulusoy-dev/multi-agent-crypto-analyst.git]
 cd multi-agent-crypto-analyst
 pip install -r requirements.txt
 python3 main.py
